@@ -11,8 +11,10 @@ class LinkToRelationTextColumn extends TextColumn
 {
     public function setup(): void
     {
-        $this->url(function ($record, TextColumn $component) {
-            $relation = $record->{explode('.', $this->getName())[0]};
+        parent::setup();
+
+        $this->url(function ($record, LinkToRelationTextColumn $component) {
+            $relation = $record->{explode('.', $component->getName())[0]};
 
             if (is_null($relation)) {
                 return null;
