@@ -101,8 +101,8 @@ class LinkToRelationTextColumnServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('link-to-relation-text-column', __DIR__ . '/../resources/dist/components/link-to-relation-text-column.js'),
-            Css::make('link-to-relation-text-column-styles', __DIR__ . '/../resources/dist/link-to-relation-text-column.css'),
-            Js::make('link-to-relation-text-column-scripts', __DIR__ . '/../resources/dist/link-to-relation-text-column.js'),
+            // Css::make('link-to-relation-text-column-styles', __DIR__ . '/../resources/dist/link-to-relation-text-column.css'),
+            // Js::make('link-to-relation-text-column-scripts', __DIR__ . '/../resources/dist/link-to-relation-text-column.js'),
         ];
     }
 
