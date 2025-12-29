@@ -2,6 +2,10 @@
 
 All notable changes to `:package_name` will be documented in this file.
 
+## Get First Name of the column name - 2025-12-29
+
+**Full Changelog**: https://github.com/ht3aa/link-to-relation-text-column/compare/v3.0.1...v3.0.2
+
 ## update - 2025-12-29
 
 ### What's Changed
