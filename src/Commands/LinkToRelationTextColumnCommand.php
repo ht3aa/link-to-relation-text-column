@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ht3aa\LinkToRelationTextColumn\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LinkToRelationTextColumnCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'link-to-relation-text-column';
 
     public $description = 'My command';
 

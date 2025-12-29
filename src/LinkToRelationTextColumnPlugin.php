@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Ht3aa\LinkToRelationTextColumn;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class LinkToRelationTextColumnPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'link-to-relation-text-column';
     }
 
     public function register(Panel $panel): void
