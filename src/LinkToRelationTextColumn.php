@@ -12,7 +12,7 @@ class LinkToRelationTextColumn extends TextColumn
     public function setup(): void
     {
         $this->url(function ($record, TextColumn $component) {
-            $relation = $record->{$this->getName()};
+            $relation = $record->{explode('.', $this->getName())[0]};
 
             if (is_null($relation)) {
                 return null;
