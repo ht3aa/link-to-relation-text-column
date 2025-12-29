@@ -1,5 +1,5 @@
 {
-    "name": "ht3aa/link-to-relation-text-column",
+    "name": "hasan-tahseen/link-to-relation-text-column",
     "description": "A text column that provide a link to the view or edit page of column relation (the relation should have a filament resource with view or edit page)",
     "keywords": [
         "ht3aa",
