@@ -2,6 +2,14 @@
 
 All notable changes to `:package_name` will be documented in this file.
 
+## v3.0.4 - 2025-12-30
+
+### What's Changed
+
+* explicitly set relation resource by @ht3aa in https://github.com/ht3aa/link-to-relation-text-column/pull/7
+
+**Full Changelog**: https://github.com/ht3aa/link-to-relation-text-column/compare/v3.0.3...v3.0.4
+
 ## v3.0.3 - 2025-12-29
 
 ### What's Changed
