@@ -51,6 +51,31 @@ class LinkToRelationTextColumn extends TextColumn
         });
     }
 
+    public function relationResource(string $relationResource): self
+    {
+        $this->url(function ($record, LinkToRelationTextColumn $component) use ($relationResource) {
+            $relation = $record->{explode('.', $component->getName())[0]};
+
+            if (is_null($relation)) {
+                return null;
+            }
+
+            $url = $this->getFilamentViewOrEditPage($relationResource, $relation);
+
+            if ($url) {
+
+                $component
+                    ->iconColor('primary')
+                    ->iconPosition(IconPosition::After)
+                    ->icon('heroicon-o-arrow-top-right-on-square');
+            }
+
+            return $url;
+        });
+
+        return $this;
+    }
+
     private function getFilamentResourceFromModelNameSpace(string $modelNameSpace)
     {
         $resources = Filament::getResources();
